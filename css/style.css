@@ -1,0 +1,133 @@
+INDEX
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.prolog img,
+.rias img,
+.imgAside img{
+  width: 8em;
+  display: block;
+  margin: 0 auto;
+}
+
+.header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5em;
+  color: #ff0080;
+}
+
+
+.header h1{
+  font-weight: 900;
+}
+
+.hr{
+  border: none;
+}
+
+.aside nav{
+  background-color: rgba(120, 253, 253, 0.76);
+  width: 15%;
+	height: auto;
+	min-height: 34em;
+	margin: 0;
+  float: left;
+}
+
+.aside nav ul{
+  padding: 1em;
+  list-style: none;
+}
+
+.aside nav ul li{
+  padding-left: .5em;
+  padding-top: .3em;
+  height: 1.5em;
+  border-bottom: solid .2em transparent;
+}
+
+.aside nav ul li:hover{
+  border-bottom: solid .2em #EF832B;
+}
+
+.aside nav span{
+  font-weight: 800;
+  color: #ff0080;
+}
+
+.aside nav  a{
+  text-decoration: none;
+  font-size: .9em;
+  font-weight: 700;
+  color: #509cda;
+}
+
+
+section .sectionParteUno{
+  width: 48%;
+	height: auto;
+	min-height: 30em;
+  border-radius: 1em;
+	float: left;
+	text-transform: none;
+  text-align: left;
+
+}
+
+.contenido{
+  text-align: justify;
+  margin: 1.5em;
+}
+
+.contenido h3{
+  font-size: 1em;
+  font-weight: bold;
+  background: #ff0080;
+  padding: .2em .2em .2em .5em;
+  color: #ECF2FE;
+}
+.contenido p{
+  font-size: .9em;
+  font-weight: 500;
+}
+
+.divTitulo{
+  font-size: 1.8em;
+  text-align: center;
+  padding: .5em;
+  color: #ff0080;
+}
+
+.divTitulo h4{
+  font-weight: 800;
+}
+
+.divAudio{
+  text-align: center;
+}
+.divTitulo img{
+  width: 7em;
+}
+.divVideo video{
+  display: block;
+  margin: 0 auto;
+}
+
+.asideDer .divBack{
+  text-align: center;
+  padding: 1em;
+}
+
+
+.footer{
+  font-size: .8em;
+  font-weight: 600;
+  text-align: center;
+  color: #ff0080;
+}
